@@ -10,6 +10,9 @@ namespace ProjectEuler16
     {
         static void Main(string[] args)
         {
+            var alg = new Algorithm();
+            Console.WriteLine(alg.Run());
+            Console.Read();
         }
     }
 }
